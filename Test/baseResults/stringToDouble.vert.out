@@ -1,0 +1,613 @@
+stringToDouble.vert
+Shader version: 460
+0:? Sequence
+0:3  Function Definition: main( ( global void)
+0:3    Function Parameters: 
+0:5    Sequence
+0:5      Sequence
+0:5        move second child to first child ( temp float)
+0:5          'w1' ( temp float)
+0:5          Constant:
+0:5            0.000000 : 0000000000000000000000000000000000000000000000000000000000000000
+0:6      Sequence
+0:6        move second child to first child ( temp float)
+0:6          'w2' ( temp float)
+0:6          Constant:
+0:6            1.000000 : 0011111111110000000000000000000000000000000000000000000000000000
+0:7      Sequence
+0:7        move second child to first child ( temp float)
+0:7          'w3' ( temp float)
+0:7          Constant:
+0:7            7.000000 : 0100000000011100000000000000000000000000000000000000000000000000
+0:8      Sequence
+0:8        move second child to first child ( temp float)
+0:8          'w4' ( temp float)
+0:8          Constant:
+0:8            13.000000 : 0100000000101010000000000000000000000000000000000000000000000000
+0:9      Sequence
+0:9        move second child to first child ( temp float)
+0:9          'w5' ( temp float)
+0:9          Constant:
+0:9            123456789.000000 : 0100000110011101011011110011010001010100000000000000000000000000
+0:10      Sequence
+0:10        move second child to first child ( temp double)
+0:10          'w6' ( temp double)
+0:10          Constant:
+0:10            1234567890123456.000000 : 0100001100010001100010110101010011110010001010101110101100000000
+0:11      Sequence
+0:11        move second child to first child ( temp double)
+0:11          'w7' ( temp double)
+0:11          Constant:
+0:11            12345678901234566.000000 : 0100001101000101111011100010101000101110101101011010010111000011
+0:12      Sequence
+0:12        move second child to first child ( temp double)
+0:12          'w8' ( temp double)
+0:12          Constant:
+0:12            123456789012345680.000000 : 0100001101111011011010011011010010111010011000110000111100110101
+0:13      Sequence
+0:13        move second child to first child ( temp double)
+0:13          'w9' ( temp double)
+0:13          Constant:
+0:13            12345678901234567000.000000 : 0100001111100101011010101001010100110001100111010110001111100001
+0:14      Sequence
+0:14        move second child to first child ( temp double)
+0:14          'w10' ( temp double)
+0:14          Constant:
+0:14            1234567890123456800000000.000000 : 0100010011110000010101101110000011110011011010100110010001000100
+0:17      Sequence
+0:17        move second child to first child ( temp float)
+0:17          'e1' ( temp float)
+0:17          Constant:
+0:17            0.000000 : 0000000000000000000000000000000000000000000000000000000000000000
+0:18      Sequence
+0:18        move second child to first child ( temp float)
+0:18          'e2' ( temp float)
+0:18          Constant:
+0:18            1.000000 : 0011111111110000000000000000000000000000000000000000000000000000
+0:19      Sequence
+0:19        move second child to first child ( temp float)
+0:19          'e3' ( temp float)
+0:19          Constant:
+0:19            0.000000 : 0000000000000000000000000000000000000000000000000000000000000000
+0:20      Sequence
+0:20        move second child to first child ( temp float)
+0:20          'e4' ( temp float)
+0:20          Constant:
+0:20            1000000000000000.000000 : 0100001100001100011010111111010100100110001101000000000000000000
+0:21      Sequence
+0:21        move second child to first child ( temp float)
+0:21          'e5' ( temp float)
+0:21          Constant:
+0:21            10000000000000000.000000 : 0100001101000001110000110111100100110111111000001000000000000000
+0:22      Sequence
+0:22        move second child to first child ( temp float)
+0:22          'e6' ( temp float)
+0:22          Constant:
+0:22            0.000000 : 0000000000000000000000000000000000000000000000000000000000000000
+0:23      Sequence
+0:23        move second child to first child ( temp float)
+0:23          'e7' ( temp float)
+0:23          Constant:
+0:23            0.000000 : 0011110011010010000000111010111110011110111001110101011000010110
+0:24      Sequence
+0:24        move second child to first child ( temp float)
+0:24          'e8' ( temp float)
+0:24          Constant:
+0:24            0.000000 : 0011110010011100110100101011001010010111110110001000100110111100
+0:25      Sequence
+0:25        move second child to first child ( temp double)
+0:25          'e9' ( temp double)
+0:25          Constant:
+0:25            10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000000 : 0101010010110010010010011010110100100101100101001100001101111101
+0:26      Sequence
+0:26        move second child to first child ( temp double)
+0:26          'e10' ( temp double)
+0:26          Constant:
+0:26            100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000000 : 0111111111100001110011001111001110000101111010111100100010100000
+0:27      Sequence
+0:27        move second child to first child ( temp double)
+0:27          'e11' ( temp double)
+0:27          Constant:
+0:27            0.000000 : 0000000000000000000000000000000000000000000000000000000000000010
+0:28      Sequence
+0:28        move second child to first child ( temp double)
+0:28          'e12' ( temp double)
+0:28          Constant:
+0:28            +1.#INF
+0:29      Sequence
+0:29        move second child to first child ( temp double)
+0:29          'e13' ( temp double)
+0:29          Constant:
+0:29            0.000000 : 0000000000000000000000000000000000000000000000000000000000000000
+0:30      Sequence
+0:30        move second child to first child ( temp double)
+0:30          'e24' ( temp double)
+0:30          Constant:
+0:30            +1.#INF
+0:31      Sequence
+0:31        move second child to first child ( temp double)
+0:31          'e25' ( temp double)
+0:31          Constant:
+0:31            0.000000 : 0000000000000000000000000000000000000000000000000000000000000000
+0:33      Sequence
+0:33        move second child to first child ( temp double)
+0:33          'f1' ( temp double)
+0:33          Constant:
+0:33            0.500000 : 0011111111100000000000000000000000000000000000000000000000000000
+0:34      Sequence
+0:34        move second child to first child ( temp double)
+0:34          'f2' ( temp double)
+0:34          Constant:
+0:34            0.125000 : 0011111111000000000000000000000000000000000000000000000000000000
+0:35      Sequence
+0:35        move second child to first child ( temp double)
+0:35          'f31' ( temp double)
+0:35          Constant:
+0:35            0.100000 : 0011111110111001100110011001100110011001100110011001100110011010
+0:36      Sequence
+0:36        move second child to first child ( temp double)
+0:36          'f32' ( temp double)
+0:36          Constant:
+0:36            0.200000 : 0011111111001001100110011001100110011001100110011001100110011010
+0:37      Sequence
+0:37        move second child to first child ( temp double)
+0:37          'f33' ( temp double)
+0:37          Constant:
+0:37            0.300000 : 0011111111010011001100110011001100110011001100110011001100110011
+0:38      Sequence
+0:38        move second child to first child ( temp double)
+0:38          'f34' ( temp double)
+0:38          Constant:
+0:38            0.400000 : 0011111111011001100110011001100110011001100110011001100110011010
+0:39      Sequence
+0:39        move second child to first child ( temp double)
+0:39          'f35' ( temp double)
+0:39          Constant:
+0:39            0.500000 : 0011111111100000000000000000000000000000000000000000000000000000
+0:40      Sequence
+0:40        move second child to first child ( temp double)
+0:40          'f36' ( temp double)
+0:40          Constant:
+0:40            0.600000 : 0011111111100011001100110011001100110011001100110011001100110011
+0:41      Sequence
+0:41        move second child to first child ( temp double)
+0:41          'f37' ( temp double)
+0:41          Constant:
+0:41            0.700000 : 0011111111100110011001100110011001100110011001100110011001100110
+0:42      Sequence
+0:42        move second child to first child ( temp double)
+0:42          'f38' ( temp double)
+0:42          Constant:
+0:42            0.800000 : 0011111111101001100110011001100110011001100110011001100110011010
+0:43      Sequence
+0:43        move second child to first child ( temp double)
+0:43          'f39' ( temp double)
+0:43          Constant:
+0:43            0.900000 : 0011111111101100110011001100110011001100110011001100110011001101
+0:44      Sequence
+0:44        move second child to first child ( temp double)
+0:44          'f4' ( temp double)
+0:44          Constant:
+0:44            0.333333 : 0011111111010101010101010101010101010101010101010101010101010101
+0:45      Sequence
+0:45        move second child to first child ( temp double)
+0:45          'f5' ( temp double)
+0:45          Constant:
+0:45            0.000000 : 0011100001110000101010011010010011000101100000101011110101000100
+0:47      Sequence
+0:47        move second child to first child ( temp double)
+0:47          'b11' ( temp double)
+0:47          Constant:
+0:47            72057594037927928.000000 : 0100001101101111111111111111111111111111111111111111111111111111
+0:48      Sequence
+0:48        move second child to first child ( temp double)
+0:48          'b12' ( temp double)
+0:48          Constant:
+0:48            72057594037927936.000000 : 0100001101110000000000000000000000000000000000000000000000000000
+0:49      Sequence
+0:49        move second child to first child ( temp double)
+0:49          'b13' ( temp double)
+0:49          Constant:
+0:49            72057594037927928.000000 : 0100001101101111111111111111111111111111111111111111111111111111
+0:50      Sequence
+0:50        move second child to first child ( temp double)
+0:50          'b14' ( temp double)
+0:50          Constant:
+0:50            72057594037927928.000000 : 0100001101101111111111111111111111111111111111111111111111111111
+0:51      Sequence
+0:51        move second child to first child ( temp double)
+0:51          'b15' ( temp double)
+0:51          Constant:
+0:51            72057594037927928.000000 : 0100001101101111111111111111111111111111111111111111111111111111
+0:52      Sequence
+0:52        move second child to first child ( temp double)
+0:52          'b21' ( temp double)
+0:52          Constant:
+0:52            9223372036854774800.000000 : 0100001111011111111111111111111111111111111111111111111111111111
+0:53      Sequence
+0:53        move second child to first child ( temp double)
+0:53          'b22' ( temp double)
+0:53          Constant:
+0:53            9223372036854775800.000000 : 0100001111100000000000000000000000000000000000000000000000000000
+0:54      Sequence
+0:54        move second child to first child ( temp double)
+0:54          'b23' ( temp double)
+0:54          Constant:
+0:54            9223372036854774800.000000 : 0100001111011111111111111111111111111111111111111111111111111111
+0:55      Sequence
+0:55        move second child to first child ( temp double)
+0:55          'b24' ( temp double)
+0:55          Constant:
+0:55            9223372036854774800.000000 : 0100001111011111111111111111111111111111111111111111111111111111
+0:56      Sequence
+0:56        move second child to first child ( temp double)
+0:56          'b25' ( temp double)
+0:56          Constant:
+0:56            9223372036854774800.000000 : 0100001111011111111111111111111111111111111111111111111111111111
+0:57      Sequence
+0:57        move second child to first child ( temp double)
+0:57          'b31' ( temp double)
+0:57          Constant:
+0:57            10141204801825834000000000000000.000000 : 0100011001011111111111111111111111111111111111111111111111111111
+0:58      Sequence
+0:58        move second child to first child ( temp double)
+0:58          'b32' ( temp double)
+0:58          Constant:
+0:58            10141204801825835000000000000000.000000 : 0100011001100000000000000000000000000000000000000000000000000000
+0:59      Sequence
+0:59        move second child to first child ( temp double)
+0:59          'b33' ( temp double)
+0:59          Constant:
+0:59            10141204801825834000000000000000.000000 : 0100011001011111111111111111111111111111111111111111111111111111
+0:60      Sequence
+0:60        move second child to first child ( temp double)
+0:60          'b34' ( temp double)
+0:60          Constant:
+0:60            10141204801825834000000000000000.000000 : 0100011001011111111111111111111111111111111111111111111111111111
+0:61      Sequence
+0:61        move second child to first child ( temp double)
+0:61          'b35' ( temp double)
+0:61          Constant:
+0:61            10141204801825834000000000000000.000000 : 0100011001011111111111111111111111111111111111111111111111111111
+0:62      Sequence
+0:62        move second child to first child ( temp double)
+0:62          'b41' ( temp double)
+0:62          Constant:
+0:62            5708990770823838900000000000000000000000000000.000000 : 0100100101101111111111111111111111111111111111111111111111111111
+0:63      Sequence
+0:63        move second child to first child ( temp double)
+0:63          'b42' ( temp double)
+0:63          Constant:
+0:63            5708990770823839500000000000000000000000000000.000000 : 0100100101110000000000000000000000000000000000000000000000000000
+0:64      Sequence
+0:64        move second child to first child ( temp double)
+0:64          'b43' ( temp double)
+0:64          Constant:
+0:64            5708990770823838900000000000000000000000000000.000000 : 0100100101101111111111111111111111111111111111111111111111111111
+0:65      Sequence
+0:65        move second child to first child ( temp double)
+0:65          'b44' ( temp double)
+0:65          Constant:
+0:65            5708990770823838900000000000000000000000000000.000000 : 0100100101101111111111111111111111111111111111111111111111111111
+0:66      Sequence
+0:66        move second child to first child ( temp double)
+0:66          'b45' ( temp double)
+0:66          Constant:
+0:66            5708990770823838900000000000000000000000000000.000000 : 0100100101101111111111111111111111111111111111111111111111111111
+0:68      Sequence
+0:68        move second child to first child ( temp double)
+0:68          'pi' ( temp double)
+0:68          Constant:
+0:68            3.141593 : 0100000000001001001000011111101101010100010001000010110100011000
+0:?   Linker Objects
+0:?     'gl_VertexID' ( gl_VertexId int VertexId)
+0:?     'gl_InstanceID' ( gl_InstanceId int InstanceId)
+
+
+Linked vertex stage:
+
+
+Shader version: 460
+0:? Sequence
+0:3  Function Definition: main( ( global void)
+0:3    Function Parameters: 
+0:5    Sequence
+0:5      Sequence
+0:5        move second child to first child ( temp float)
+0:5          'w1' ( temp float)
+0:5          Constant:
+0:5            0.000000 : 0000000000000000000000000000000000000000000000000000000000000000
+0:6      Sequence
+0:6        move second child to first child ( temp float)
+0:6          'w2' ( temp float)
+0:6          Constant:
+0:6            1.000000 : 0011111111110000000000000000000000000000000000000000000000000000
+0:7      Sequence
+0:7        move second child to first child ( temp float)
+0:7          'w3' ( temp float)
+0:7          Constant:
+0:7            7.000000 : 0100000000011100000000000000000000000000000000000000000000000000
+0:8      Sequence
+0:8        move second child to first child ( temp float)
+0:8          'w4' ( temp float)
+0:8          Constant:
+0:8            13.000000 : 0100000000101010000000000000000000000000000000000000000000000000
+0:9      Sequence
+0:9        move second child to first child ( temp float)
+0:9          'w5' ( temp float)
+0:9          Constant:
+0:9            123456789.000000 : 0100000110011101011011110011010001010100000000000000000000000000
+0:10      Sequence
+0:10        move second child to first child ( temp double)
+0:10          'w6' ( temp double)
+0:10          Constant:
+0:10            1234567890123456.000000 : 0100001100010001100010110101010011110010001010101110101100000000
+0:11      Sequence
+0:11        move second child to first child ( temp double)
+0:11          'w7' ( temp double)
+0:11          Constant:
+0:11            12345678901234566.000000 : 0100001101000101111011100010101000101110101101011010010111000011
+0:12      Sequence
+0:12        move second child to first child ( temp double)
+0:12          'w8' ( temp double)
+0:12          Constant:
+0:12            123456789012345680.000000 : 0100001101111011011010011011010010111010011000110000111100110101
+0:13      Sequence
+0:13        move second child to first child ( temp double)
+0:13          'w9' ( temp double)
+0:13          Constant:
+0:13            12345678901234567000.000000 : 0100001111100101011010101001010100110001100111010110001111100001
+0:14      Sequence
+0:14        move second child to first child ( temp double)
+0:14          'w10' ( temp double)
+0:14          Constant:
+0:14            1234567890123456800000000.000000 : 0100010011110000010101101110000011110011011010100110010001000100
+0:17      Sequence
+0:17        move second child to first child ( temp float)
+0:17          'e1' ( temp float)
+0:17          Constant:
+0:17            0.000000 : 0000000000000000000000000000000000000000000000000000000000000000
+0:18      Sequence
+0:18        move second child to first child ( temp float)
+0:18          'e2' ( temp float)
+0:18          Constant:
+0:18            1.000000 : 0011111111110000000000000000000000000000000000000000000000000000
+0:19      Sequence
+0:19        move second child to first child ( temp float)
+0:19          'e3' ( temp float)
+0:19          Constant:
+0:19            0.000000 : 0000000000000000000000000000000000000000000000000000000000000000
+0:20      Sequence
+0:20        move second child to first child ( temp float)
+0:20          'e4' ( temp float)
+0:20          Constant:
+0:20            1000000000000000.000000 : 0100001100001100011010111111010100100110001101000000000000000000
+0:21      Sequence
+0:21        move second child to first child ( temp float)
+0:21          'e5' ( temp float)
+0:21          Constant:
+0:21            10000000000000000.000000 : 0100001101000001110000110111100100110111111000001000000000000000
+0:22      Sequence
+0:22        move second child to first child ( temp float)
+0:22          'e6' ( temp float)
+0:22          Constant:
+0:22            0.000000 : 0000000000000000000000000000000000000000000000000000000000000000
+0:23      Sequence
+0:23        move second child to first child ( temp float)
+0:23          'e7' ( temp float)
+0:23          Constant:
+0:23            0.000000 : 0011110011010010000000111010111110011110111001110101011000010110
+0:24      Sequence
+0:24        move second child to first child ( temp float)
+0:24          'e8' ( temp float)
+0:24          Constant:
+0:24            0.000000 : 0011110010011100110100101011001010010111110110001000100110111100
+0:25      Sequence
+0:25        move second child to first child ( temp double)
+0:25          'e9' ( temp double)
+0:25          Constant:
+0:25            10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000000 : 0101010010110010010010011010110100100101100101001100001101111101
+0:26      Sequence
+0:26        move second child to first child ( temp double)
+0:26          'e10' ( temp double)
+0:26          Constant:
+0:26            100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000000 : 0111111111100001110011001111001110000101111010111100100010100000
+0:27      Sequence
+0:27        move second child to first child ( temp double)
+0:27          'e11' ( temp double)
+0:27          Constant:
+0:27            0.000000 : 0000000000000000000000000000000000000000000000000000000000000010
+0:28      Sequence
+0:28        move second child to first child ( temp double)
+0:28          'e12' ( temp double)
+0:28          Constant:
+0:28            +1.#INF
+0:29      Sequence
+0:29        move second child to first child ( temp double)
+0:29          'e13' ( temp double)
+0:29          Constant:
+0:29            0.000000 : 0000000000000000000000000000000000000000000000000000000000000000
+0:30      Sequence
+0:30        move second child to first child ( temp double)
+0:30          'e24' ( temp double)
+0:30          Constant:
+0:30            +1.#INF
+0:31      Sequence
+0:31        move second child to first child ( temp double)
+0:31          'e25' ( temp double)
+0:31          Constant:
+0:31            0.000000 : 0000000000000000000000000000000000000000000000000000000000000000
+0:33      Sequence
+0:33        move second child to first child ( temp double)
+0:33          'f1' ( temp double)
+0:33          Constant:
+0:33            0.500000 : 0011111111100000000000000000000000000000000000000000000000000000
+0:34      Sequence
+0:34        move second child to first child ( temp double)
+0:34          'f2' ( temp double)
+0:34          Constant:
+0:34            0.125000 : 0011111111000000000000000000000000000000000000000000000000000000
+0:35      Sequence
+0:35        move second child to first child ( temp double)
+0:35          'f31' ( temp double)
+0:35          Constant:
+0:35            0.100000 : 0011111110111001100110011001100110011001100110011001100110011010
+0:36      Sequence
+0:36        move second child to first child ( temp double)
+0:36          'f32' ( temp double)
+0:36          Constant:
+0:36            0.200000 : 0011111111001001100110011001100110011001100110011001100110011010
+0:37      Sequence
+0:37        move second child to first child ( temp double)
+0:37          'f33' ( temp double)
+0:37          Constant:
+0:37            0.300000 : 0011111111010011001100110011001100110011001100110011001100110011
+0:38      Sequence
+0:38        move second child to first child ( temp double)
+0:38          'f34' ( temp double)
+0:38          Constant:
+0:38            0.400000 : 0011111111011001100110011001100110011001100110011001100110011010
+0:39      Sequence
+0:39        move second child to first child ( temp double)
+0:39          'f35' ( temp double)
+0:39          Constant:
+0:39            0.500000 : 0011111111100000000000000000000000000000000000000000000000000000
+0:40      Sequence
+0:40        move second child to first child ( temp double)
+0:40          'f36' ( temp double)
+0:40          Constant:
+0:40            0.600000 : 0011111111100011001100110011001100110011001100110011001100110011
+0:41      Sequence
+0:41        move second child to first child ( temp double)
+0:41          'f37' ( temp double)
+0:41          Constant:
+0:41            0.700000 : 0011111111100110011001100110011001100110011001100110011001100110
+0:42      Sequence
+0:42        move second child to first child ( temp double)
+0:42          'f38' ( temp double)
+0:42          Constant:
+0:42            0.800000 : 0011111111101001100110011001100110011001100110011001100110011010
+0:43      Sequence
+0:43        move second child to first child ( temp double)
+0:43          'f39' ( temp double)
+0:43          Constant:
+0:43            0.900000 : 0011111111101100110011001100110011001100110011001100110011001101
+0:44      Sequence
+0:44        move second child to first child ( temp double)
+0:44          'f4' ( temp double)
+0:44          Constant:
+0:44            0.333333 : 0011111111010101010101010101010101010101010101010101010101010101
+0:45      Sequence
+0:45        move second child to first child ( temp double)
+0:45          'f5' ( temp double)
+0:45          Constant:
+0:45            0.000000 : 0011100001110000101010011010010011000101100000101011110101000100
+0:47      Sequence
+0:47        move second child to first child ( temp double)
+0:47          'b11' ( temp double)
+0:47          Constant:
+0:47            72057594037927928.000000 : 0100001101101111111111111111111111111111111111111111111111111111
+0:48      Sequence
+0:48        move second child to first child ( temp double)
+0:48          'b12' ( temp double)
+0:48          Constant:
+0:48            72057594037927936.000000 : 0100001101110000000000000000000000000000000000000000000000000000
+0:49      Sequence
+0:49        move second child to first child ( temp double)
+0:49          'b13' ( temp double)
+0:49          Constant:
+0:49            72057594037927928.000000 : 0100001101101111111111111111111111111111111111111111111111111111
+0:50      Sequence
+0:50        move second child to first child ( temp double)
+0:50          'b14' ( temp double)
+0:50          Constant:
+0:50            72057594037927928.000000 : 0100001101101111111111111111111111111111111111111111111111111111
+0:51      Sequence
+0:51        move second child to first child ( temp double)
+0:51          'b15' ( temp double)
+0:51          Constant:
+0:51            72057594037927928.000000 : 0100001101101111111111111111111111111111111111111111111111111111
+0:52      Sequence
+0:52        move second child to first child ( temp double)
+0:52          'b21' ( temp double)
+0:52          Constant:
+0:52            9223372036854774800.000000 : 0100001111011111111111111111111111111111111111111111111111111111
+0:53      Sequence
+0:53        move second child to first child ( temp double)
+0:53          'b22' ( temp double)
+0:53          Constant:
+0:53            9223372036854775800.000000 : 0100001111100000000000000000000000000000000000000000000000000000
+0:54      Sequence
+0:54        move second child to first child ( temp double)
+0:54          'b23' ( temp double)
+0:54          Constant:
+0:54            9223372036854774800.000000 : 0100001111011111111111111111111111111111111111111111111111111111
+0:55      Sequence
+0:55        move second child to first child ( temp double)
+0:55          'b24' ( temp double)
+0:55          Constant:
+0:55            9223372036854774800.000000 : 0100001111011111111111111111111111111111111111111111111111111111
+0:56      Sequence
+0:56        move second child to first child ( temp double)
+0:56          'b25' ( temp double)
+0:56          Constant:
+0:56            9223372036854774800.000000 : 0100001111011111111111111111111111111111111111111111111111111111
+0:57      Sequence
+0:57        move second child to first child ( temp double)
+0:57          'b31' ( temp double)
+0:57          Constant:
+0:57            10141204801825834000000000000000.000000 : 0100011001011111111111111111111111111111111111111111111111111111
+0:58      Sequence
+0:58        move second child to first child ( temp double)
+0:58          'b32' ( temp double)
+0:58          Constant:
+0:58            10141204801825835000000000000000.000000 : 0100011001100000000000000000000000000000000000000000000000000000
+0:59      Sequence
+0:59        move second child to first child ( temp double)
+0:59          'b33' ( temp double)
+0:59          Constant:
+0:59            10141204801825834000000000000000.000000 : 0100011001011111111111111111111111111111111111111111111111111111
+0:60      Sequence
+0:60        move second child to first child ( temp double)
+0:60          'b34' ( temp double)
+0:60          Constant:
+0:60            10141204801825834000000000000000.000000 : 0100011001011111111111111111111111111111111111111111111111111111
+0:61      Sequence
+0:61        move second child to first child ( temp double)
+0:61          'b35' ( temp double)
+0:61          Constant:
+0:61            10141204801825834000000000000000.000000 : 0100011001011111111111111111111111111111111111111111111111111111
+0:62      Sequence
+0:62        move second child to first child ( temp double)
+0:62          'b41' ( temp double)
+0:62          Constant:
+0:62            5708990770823838900000000000000000000000000000.000000 : 0100100101101111111111111111111111111111111111111111111111111111
+0:63      Sequence
+0:63        move second child to first child ( temp double)
+0:63          'b42' ( temp double)
+0:63          Constant:
+0:63            5708990770823839500000000000000000000000000000.000000 : 0100100101110000000000000000000000000000000000000000000000000000
+0:64      Sequence
+0:64        move second child to first child ( temp double)
+0:64          'b43' ( temp double)
+0:64          Constant:
+0:64            5708990770823838900000000000000000000000000000.000000 : 0100100101101111111111111111111111111111111111111111111111111111
+0:65      Sequence
+0:65        move second child to first child ( temp double)
+0:65          'b44' ( temp double)
+0:65          Constant:
+0:65            5708990770823838900000000000000000000000000000.000000 : 0100100101101111111111111111111111111111111111111111111111111111
+0:66      Sequence
+0:66        move second child to first child ( temp double)
+0:66          'b45' ( temp double)
+0:66          Constant:
+0:66            5708990770823838900000000000000000000000000000.000000 : 0100100101101111111111111111111111111111111111111111111111111111
+0:68      Sequence
+0:68        move second child to first child ( temp double)
+0:68          'pi' ( temp double)
+0:68          Constant:
+0:68            3.141593 : 0100000000001001001000011111101101010100010001000010110100011000
+0:?   Linker Objects
+0:?     'gl_VertexID' ( gl_VertexId int VertexId)
+0:?     'gl_InstanceID' ( gl_InstanceId int InstanceId)
+
